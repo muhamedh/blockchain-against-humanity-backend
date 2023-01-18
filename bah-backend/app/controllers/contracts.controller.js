@@ -13,7 +13,8 @@ exports.create = (req, res) => {
   const contract = new Contract({
     blockNumber: req.body.blockNumber,
     contractAddress: req.body.contractAddress,
-    creatorAddress: req.body.creatorAddress
+    creatorAddress: req.body.creatorAddress,
+    question: req.body.question
   });
 
   // Save Tutorial in the database

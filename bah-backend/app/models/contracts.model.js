@@ -3,7 +3,8 @@ module.exports = mongoose => {
       {
         blockNumber: String,
         contractAddress: String,
-        creatorAddress: String
+        creatorAddress: String,
+        question: String
       },
       { timestamps: true }
     );
